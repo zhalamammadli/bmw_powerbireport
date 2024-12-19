@@ -54,8 +54,20 @@ The original dataset from Kaggle was far from perfect and required significant p
 - **Year of Manufacture**: I added a **Year of Manufacture** column to better represent the timeline of the cars.
 
 ## 🛠️ Tools Used  
-- **Power Query**: For ETL (Extract, Transform, Load) processes and data cleaning.  
-- **Power BI Desktop**: For creating the interactive report.
+- **Power Query**: 
+- For ETL (Extract, Transform, Load) processes and data cleaning.  
+ - *Filtering*: Used to focus on BMW cars and remove irrelevant data.  
+ - *Replacing Values*: Standardized missing data and inconsistencies like "N/A" to "null".  
+ - *Renaming Columns*: Cleaned up column names to ensure consistency.
+ - *Changing Format*: Corrected the formatting of various columns, including image URLs and engine types.
 
+- **Power BI Desktop**: 
+For creating the interactive report.
+- *"Simple Image" Visualization*: Displayed car images based on the selected model.  
+- *Cars*: Displayed relevant car information and specifications.  
+- *Tile Slicers*: Used to filter cars based on key attributes such as price, engine type, and features.  
+- *Tiles*: Displayed key information in a visually appealing format.  
+- *Button to Clear All Parameters*: Enabled users to reset filters with a single click.  
+- *Slicers*: Allowed users to select and filter data based on their preferences (e.g., price, year, engine type).
 
 
