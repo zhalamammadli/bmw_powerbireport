@@ -36,3 +36,26 @@ It includes:
 - Almost 80 columns of data covering:
 - Technical details such as drivetrain, power, and torque.
 - Additional information like body type, car dimensions, equipment, and photo URLs.
+
+I imported the dataset into Power BI for analysis and visualization.
+![Screenshot 2024-12-19 160012](https://github.com/user-attachments/assets/0956560b-9619-4709-afdb-c5a721ffc550)
+
+## 🧹 Data Cleaning Story  
+
+The original dataset from Kaggle was far from perfect and required significant preprocessing before any meaningful analysis could be performed. One of the biggest challenges was dealing with inconsistent and incomplete data:
+
+### Steps Taken:
+- **Filtering for BMW**: The dataset included multiple car brands, but I focused solely on **BMW** to ensure the analysis was relevant.  
+- **Handling Missing Values**: A lot of missing data was present, which I replaced with **null** values. Many entries also had "N/A" written inconsistently as "NA," so I standardized this.  
+- **Correcting Formatting Issues**: Several columns had incorrect formatting, which I cleaned up to ensure consistency.  
+- **Image URL Formatting**: I updated the formatting of image URLs to correctly link to the images of the cars.  
+- **Engine Types**: I added missing engine type names from external sources and standardized engine names, ensuring uniformity across the dataset.  
+- **Index Column**: I removed the original index column and added my own, as the dataset was now focused on just **60 BMW cars**.  
+- **Year of Manufacture**: I added a **Year of Manufacture** column to better represent the timeline of the cars.
+
+## 🛠️ Tools Used  
+- **Power Query**: For ETL (Extract, Transform, Load) processes and data cleaning.  
+- **Power BI Desktop**: For creating the interactive report.
+
+
+
