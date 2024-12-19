@@ -1,4 +1,5 @@
 # BMW 2022-2023 Cars Report 
+![Cars-1](https://github.com/user-attachments/assets/7f99c758-d7fb-4547-b891-81e0015b7be0)
 
 #### Link of report: https://app.powerbi.com/reportEmbed?reportId=b82b19ac-f117-4feb-954b-b67e557f1329&autoAuth=true&ctid=9f2eb1a9-d1e7-4d23-bbd6-7c54fca48a30
 #### Link of project on novypro.com website: https://www.novypro.com/project/which-bmw-fits-you
@@ -70,4 +71,25 @@ For creating the interactive report.
 - *Button to Clear All Parameters*: Enabled users to reset filters with a single click.  
 - *Slicers*: Allowed users to select and filter data based on their preferences (e.g., price, year, engine type).
 
+## 📈 Report Insights
 
+This Power BI report offers a detailed, interactive view of BMW cars, allowing users to explore various car models and find the one that best suits their needs. Here are some key insights:
+
+### Key Features:
+- **Interactive Filters**: Users can filter cars based on parameters like **price**, **engine type**, **year of manufacture**, and specific features such as **child lock**, **fog lights**, and **voice control**.
+- **Car Comparison**: The report allows users to compare multiple BMW models to make an informed decision.
+- **Detailed Information**: Each car model includes essential details such as:
+  - *Price*
+  - *Engine specifications*
+  - *Car dimensions*
+  - *Additional equipment* (e.g., safety features, tech options)
+  - *Image and visual details* to enhance user experience
+- **User-Friendly Interface**: The design ensures an easy-to-navigate interface, with features like:
+  - *Tile Slicers*: To quickly filter cars by attributes like price, engine, or year.
+  - *"Simple Image" Visualization*: Displaying car images for a better visual comparison.
+  - *Clear All Parameters Button*: Allows users to reset all filters with a single click.
+
+### Key Takeaways:
+- *Simplified Decision Making*: By providing all essential information in one place, the report helps users make faster, data-driven decisions about which BMW model is the best fit for their needs.
+- *Comprehensive Insights*: Users gain detailed insights into the cars they are considering, helping them understand not only the technical specifications but also the features that matter most to them.
+- *Enhanced User Experience*: The combination of interactive features and visually appealing design ensures that the process of finding the right BMW is both easy and enjoyable.
